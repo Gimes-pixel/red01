@@ -17,9 +17,9 @@
                 url = "https://" + url; // Ensure valid URL format
             }
             let proxyUrl = `https://red01.nate-demento.workers.dev/?url=${encodeURIComponent(url)}`;
-            window.open(proxyUrl, "_blank"); // Open in a new tab
+            window.location.href = proxyUrl; // Stay within the same tab
         }
     </script>
 </body>
 </html>
- 
+
